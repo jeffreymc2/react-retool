@@ -1,5 +1,4 @@
 import React from 'react';
-import './retool.css';
 
 class Retool extends React.Component {
     constructor(props) {
