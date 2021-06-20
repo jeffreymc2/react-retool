@@ -101,7 +101,9 @@ class Retool extends React.Component {
     render() {
         return (
                 <iframe 
-                    frameBorder="none" 
+                    frameBorder="none"
+                    height="100vh"
+                    width="100%"    
                     src={this.state.url}
                     ref = {e => {
                         this.iframe = e
